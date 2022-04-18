@@ -1,21 +1,13 @@
 {   
-    //配置多个打卡账号
     "jobs":[
         {
-            //打卡的通行证账号1，即学工号
             "username":"3180111645",
-            //对应登录密码
             "password":"Zhangxuanqi0126", 
-            //cron表达式定时，示例为每天00:00:00，对github action无效
-            "cron":"0 8 0 * * ? *",
-            // 钉钉机器人webhook URL
+            "cron":"0 0 9 * * ? *",
             "dingtalkurl": "https://oapi.dingtalk.com/robot/send?access_token=68bd03b143bc9c1505aedd76e72730070fa746f04b801e6a54ed66e9cc621d1f",
-            //任务开启随机延时0-1800秒
             "delay":true
         }
     ],
-    // 开启打卡前表单验证
     "formvalidation": true,
-    // 是否开启预览功能特性
     "enablepreview": false
 }
