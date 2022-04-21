@@ -1,5 +1,21 @@
 {
-    "jobs":[],
+
+    "jobs":[
+        {
+            "username":"3180111645",
+            "password":"Zhangxuanqi0126",
+            "cron":"0 0 5 * * ? *",
+            "dingtalkurl": "https://oapi.dingtalk.com/robot/send?access_token=68bd03b143bc9c1505aedd76e72730070fa746f04b801e6a54ed66e9cc621d1f",
+            "delay":true
+        },
+        {
+            "username":"3190111056",
+            "password":"qrj0010211",
+            "cron":"0 0 5 * * ? *",
+            "dingtalkurl": "https://oapi.dingtalk.com/robot/send?access_token=d03e958df2bbf899d8ea610ee99501f35681f96f6f4abc9c50b415085ac5e60b",
+            "delay":true
+        }
+    ],
     "formvalidation": true,
     "enablepreview": false
 }
