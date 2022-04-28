@@ -10,7 +10,7 @@
         },
         {
             "username":"3190111056",
-            "password":"Qrjiqzl#",
+            "password":"qrj20010211",
             "cron":"0 0 0 * * ? *",
             "dingtalkurl": "https://oapi.dingtalk.com/robot/send?access_token=d03e958df2bbf899d8ea610ee99501f35681f96f6f4abc9c50b415085ac5e60b",
             "delay":true
